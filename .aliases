@@ -1,0 +1,10 @@
+# Terraform Aliases
+alias tf="terraform"
+alias tfyolo="terraform apply -auto-approve"
+alias tfyodo="terraform destroy -auto-approve"
+alias tfi="terraform init"
+alias tfp="terraform plan"
+alias tfs="terraform show"
+alias tfg="terraform graph | dot -Tsvg > graph.svg"
+
+alias tfu="tfenv use"

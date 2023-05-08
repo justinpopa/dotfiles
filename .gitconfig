@@ -1,0 +1,9 @@
+[includeIf "gitdir:~/Development/work/"]
+  path = ~/Development/work/.gitconfig_include
+[includeIf "gitdir:~/Development/personal/"]
+  path = ~/Development/personal/.gitconfig_include
+
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true

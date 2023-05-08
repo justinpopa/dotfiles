@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Git
+!.gitignore
+!.gitconfig
+
+# Zsh
+!.aliases
+!.paths
+!.zshrc
+!.zprofile

@@ -1,0 +1,5 @@
+# If Go is installed, add it to the path
+if [ -d ~/go/bin ]
+then
+  export PATH=$PATH:~/go/bin
+fi
