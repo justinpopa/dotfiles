@@ -14,15 +14,15 @@ antigen theme dracula/zsh dracula
 antigen apply
 
 # Include alias file (if present) containing aliases for ssh, etc.
-if [ -f ~/.config/zsh/aliases ]
+if [ -f ~/.aliases ]
 then
-  source ~/.config/zsh/aliases
+  source ~/.aliases
 fi
 
 # Include paths file (if present) containing paths for Go, etc.
-if [ -f ~/.config/zsh/paths ]
+if [ -f ~/.paths ]
 then
-  source ~/.config/zsh/paths
+  source ~/.paths
 fi
 
 # Nicer prompt.
