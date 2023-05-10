@@ -1,3 +1,6 @@
+# ls
+alias ll="ls -lash"
+
 # Terraform Aliases
 alias tf="terraform"
 alias tfyolo="terraform apply -auto-approve"
@@ -6,5 +9,8 @@ alias tfi="terraform init"
 alias tfp="terraform plan"
 alias tfs="terraform show"
 alias tfg="terraform graph | dot -Tsvg > graph.svg"
+alias tfwl="terraform workspace list"
+alias tfws="terraform workspace select"
 
+# TFenv
 alias tfu="tfenv use"

@@ -10,3 +10,5 @@
 
 [include]
   path = ~/.gitconfig_include
+[core]
+	hooksPath = /Users/justinpopa/.git/hooks
